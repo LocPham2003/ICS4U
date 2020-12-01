@@ -3,7 +3,7 @@ package assignment1;
 import java.util.Scanner;
 
 /**
-b)  The formula in part (a) can be adjusted to calculate what principal will need to be invested in order to have a certain amount of money after a specified term and interest rate:
+ * 7b)The formula in part (a) can be adjusted to calculate what principal will need to be invested in order to have a certain amount of money after a specified term and interest rate:
  * Principal  = Amount  / (1  + years  * interest  rate).
  * Modify SimpleInterest to prompt the user for the desired amount, number of years, and interest rate and then calculate the principal that will need to be invested.
  *

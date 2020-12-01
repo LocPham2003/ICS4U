@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * Create a program that asks for the customer’s name.
+ * 3/ Create a program that asks for the customer’s name.
  * Enter the price of 10 articles the customer has purchased.
  * Calculate HST and the total cost after taxes.
  * Properly space each piece of information to create a sales receipt with the customer’s name in ALL upper case.
@@ -49,12 +49,12 @@ public class Articles {
         double sum = 0;
 
         //Indicate which number is the article in the receipt
-        int articleNumber = 0;
+        int articleNumber = 1;
 
         //Print the price of each articles as a receipt
         for (Double i : articles){
 
-            System.out.printf("%-10S %20.2f%n", "Article " + articleNumber, i);
+            System.out.printf("%-10S %20.2f$%n", "Article " + articleNumber, i);
 
             //Add up all articles' prices to make a sum
             sum += i;
@@ -68,8 +68,8 @@ public class Articles {
         //Total price with tax is the sum of all articles' prices and hst
         double totalPriceWithTax = sum + hst;
 
-        System.out.printf("%15S: %.2f%n", "hst", hst);
-        System.out.printf("%15S: %.2f%n", "total price", totalPriceWithTax);
+        System.out.printf("%15S: %.2f$%n", "hst", hst);
+        System.out.printf("%15S: %.2f$%n", "total price", totalPriceWithTax);
 
     }
 

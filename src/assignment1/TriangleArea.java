@@ -3,9 +3,8 @@ package assignment1;
 import java.util.Scanner;
 
 /**
- * The following program asks the user for the names of
- * three sports teams and the sport that they play.
- * Output the information in chart form with title.
+ * 6/ Write a program to allow the user the length of the base and height of a triangle.
+ * The program will calculate the area rounded to 2 decimal places.
  *
  * @author  Loc Pham
  * @version 1.0
@@ -27,6 +26,8 @@ public class TriangleArea {
         baseLength = input.nextDouble();
         System.out.print("Please enter your height: ");
         height = input.nextDouble();
+
+        input.close();
 
         //The area of the triangle can be calculated with the following formula: (baseLength * height) / 2
         double area = (baseLength * height) / 2;

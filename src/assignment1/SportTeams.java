@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * The following program asks the user for the names of
+ * 2/The following program asks the user for the names of
  * three sports teams and the sport that they play.
  * Output the information in chart form with title.
  *
@@ -28,9 +28,10 @@ public class SportTeams {
         ArrayList<String> sportTeam = new ArrayList<>();
         ArrayList<String> sportTheyPlay = new ArrayList<>();
 
+        Scanner input = new Scanner(System.in);
+
         //Loop the iterate 3 times, corresponding to 3 inputs
         for (int i = 0; i <= 2; i++){
-            Scanner input = new Scanner(System.in);
 
             System.out.print("Enter sport team and the sport they play: ");
 
@@ -64,6 +65,9 @@ public class SportTeams {
                 i--;
             }
         }
+
+        input.close();
+
         System.out.println();
 
         //Format the input data into a chart

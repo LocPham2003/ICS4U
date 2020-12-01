@@ -3,9 +3,10 @@ package assignment1;
 import java.util.Scanner;
 
 /**
- * The following program can convert gallons to liters.
- * The result display the number of gallons and the corresponding number
- * of liters that is rounded to 2 decimal places
+ * 1/Create a program that converts gallons to liters.
+ * The program will ask the user for the amount of gallons and then the program will display the equivalent in Liters.
+ * There are 3.7854 liters in a gallon.
+ * The program displays both the number of gallons and the equivalent number of liters rounded to 2 decimal places.
  *
  * @author  Loc Pham
  * @version 1.0

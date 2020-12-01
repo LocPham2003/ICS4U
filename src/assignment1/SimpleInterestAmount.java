@@ -3,10 +3,10 @@ package assignment1;
 import java.util.Scanner;
 
 /**
- * There are two kinds of interest: simple and compound. With simple interest, the amount of the deposit remains the same, and the amount of interest is paid at the end of a time interval.
+ * 7a/ There are two kinds of interest: simple and compound. With simple interest, the amount of the deposit remains the same, and the amount of interest is paid at the end of a time interval.
  * For example, if $1,000 is deposited for 7 years at an interest rate of 6% per year, $60 will be deposited at the end of each year, for a total of $1,420 after 7 years.
  *
- * a)  The value of the amount after the term is calculated using the formula:
+ * The value of the amount after the term is calculated using the formula:
  *
  * Amount  = Principal  * (1  + years  * interest  rate)
  *

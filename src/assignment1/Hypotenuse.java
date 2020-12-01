@@ -3,7 +3,7 @@ package assignment1;
 import java.util.Scanner;
 
 /**
- * Create a program that asks the user to enter the  Lengths of the two sides adjacent to a right angle in a right angled triangle.
+ * 4/ Create a program that asks the user to enter the  Lengths of the two sides adjacent to a right angle in a right angled triangle.
  * The program will  calculate the length of the Hypotenuse and output the lengths of all three sides rounded to three decimal places
  *
  * @author  Loc Pham
@@ -26,6 +26,8 @@ public class Hypotenuse {
 
         System.out.print("Please input the value of adjacent side 2: ");
         adjacent2 = scanner.nextDouble();
+
+        scanner.close();
 
         //Using pythagorean theorem, the hypotenuse can be calculated as following:
         //sqrt(a^2 + b^2), a and b are two adjacent sides in a right angled triangle

@@ -3,14 +3,13 @@ package assignment1;
 import java.util.Scanner;
 
 /**
- * Write a program that would allow the user to enter any real number for x and would output an ordered pair (x,y) where y=2x^3-5x^2+3x-4 .
+ * 5/ Write a program that would allow the user to enter any real number for x and would output an ordered pair (x,y) where y=2x^3-5x^2+3x-4 .
  * Please round to 2 decimal places.
  *
  * @author  Loc Pham
  * @version 1.0
  * @since   2020-11-26
  */
-
 
 public class OrderedPair {
 
@@ -27,6 +26,8 @@ public class OrderedPair {
         //We get the user input for x
         System.out.print("Please enter your x value: ");
         double x = scanner.nextDouble();
+
+        scanner.close();
 
         //Once we get the value of x, we will call function f to get our y value. Since f(double x) return a double value, we will declare a new variable and store it there
         double y = f(x);

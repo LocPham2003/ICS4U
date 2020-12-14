@@ -1,22 +1,14 @@
-class Circle{
-    private double radius;
-
-    Circle(double radius){
-        this.radius = radius;
-    }
-
-    public double getRadius() {
-        return radius;
-    }
-}
+import java.util.Arrays;
 
 public class Tests {
     public static void main(String[] args) {
+        int[] arr = new int[0];
 
-        //circle is an abstract data type
-        Circle circle = new Circle(4);
+        int[] arr1 = {1,2,3,4,5};
 
+        arr = arr1;
 
-        System.out.println(circle.getRadius());
+        System.out.println(Arrays.toString(arr));
+
     }
 }

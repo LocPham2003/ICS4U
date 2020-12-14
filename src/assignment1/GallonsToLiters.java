@@ -34,8 +34,7 @@ public class GallonsToLiters {
 
         //We have a loop here so that the user can repeatedly use the program and exit on command
         while(isUserExit == 0) {
-
-
+            
             System.out.print("Enter number of gallons: ");
 
             //Store input gallons in a variable for further uses.
